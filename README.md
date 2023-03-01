@@ -106,7 +106,7 @@ bool = isNamedTypedTupleLike( null );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/named-typed-tuple`][@stdlib/utils/named-typed-tuple]</span><span class="delimiter">: </span><span class="description">named typed tuple.</span>
+-   <span class="package-name">[`@stdlib/utils-named-typed-tuple`][@stdlib/utils/named-typed-tuple]</span><span class="delimiter">: </span><span class="description">named typed tuple.</span>
 
 </section>
 
