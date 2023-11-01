@@ -41,7 +41,7 @@
     "@stdlib/assert-is-typed-array": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.1.0",
+    "@stdlib/array-float64": "^0.1.1",
     "@stdlib/assert-is-boolean": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/utils-named-typed-tuple": "^0.1.0",
