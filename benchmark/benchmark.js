@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isBoolean = require( '@stdlib/assert-is-boolean' ).isPrimitive;
 var namedtypedtuple = require( '@stdlib/utils-named-typed-tuple' );
 var pkg = require( './../package.json' ).name;
