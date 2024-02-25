@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@esm/index.mjs';
+import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@v0.2.1-esm/index.mjs';
 ```
 
 #### isNamedTypedTupleLike( value )
@@ -76,7 +76,7 @@ var bool = isNamedTypedTupleLike( p );
 <script type="module">
 
 import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@esm/index.mjs';
-import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@esm/index.mjs';
+import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@v0.2.1-esm/index.mjs';
 
 var Point = namedtypedtuple( [ 'x', 'y' ] );
 var p = new Point();
