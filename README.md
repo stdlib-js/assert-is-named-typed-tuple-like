@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-named-typed-tuple-like/tags). For example,
+
+```javascript
 import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@v0.2.2-deno/mod.js';
 ```
 
@@ -71,7 +76,7 @@ var bool = isNamedTypedTupleLike( p );
 
 ```javascript
 import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-named-typed-tuple@deno/mod.js';
-import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@v0.2.2-deno/mod.js';
+import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@deno/mod.js';
 
 var Point = namedtypedtuple( [ 'x', 'y' ] );
 var p = new Point();
