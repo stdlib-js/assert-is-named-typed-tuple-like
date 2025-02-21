@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Test if a value is [named typed tuple][@stdlib/utils/named-typed-tuple]-like.
+> Test if a value is [named typed tuple][@stdlib/dstructs/named-typed-tuple]-like.
 
 <section class="installation">
 
@@ -65,10 +65,10 @@ var isNamedTypedTupleLike = require( '@stdlib/assert-is-named-typed-tuple-like' 
 
 #### isNamedTypedTupleLike( value )
 
-Tests if a value is [named typed tuple][@stdlib/utils/named-typed-tuple]-like.
+Tests if a value is [named typed tuple][@stdlib/dstructs/named-typed-tuple]-like.
 
 ```javascript
-var namedtypedtuple = require( '@stdlib/utils-named-typed-tuple' );
+var namedtypedtuple = require( '@stdlib/dstructs-named-typed-tuple' );
 
 var Point = namedtypedtuple( [ 'x', 'y' ] );
 var p = new Point();
@@ -88,7 +88,7 @@ var bool = isNamedTypedTupleLike( p );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var namedtypedtuple = require( '@stdlib/utils-named-typed-tuple' );
+var namedtypedtuple = require( '@stdlib/dstructs-named-typed-tuple' );
 var isNamedTypedTupleLike = require( '@stdlib/assert-is-named-typed-tuple-like' );
 
 var Point = namedtypedtuple( [ 'x', 'y' ] );
@@ -119,7 +119,7 @@ bool = isNamedTypedTupleLike( null );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils-named-typed-tuple`][@stdlib/utils/named-typed-tuple]</span><span class="delimiter">: </span><span class="description">named typed tuple.</span>
+-   <span class="package-name">[`@stdlib/dstructs-named-typed-tuple`][@stdlib/dstructs/named-typed-tuple]</span><span class="delimiter">: </span><span class="description">named typed tuple.</span>
 
 </section>
 
@@ -199,7 +199,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/named-typed-tuple]: https://github.com/stdlib-js/utils-named-typed-tuple
+[@stdlib/dstructs/named-typed-tuple]: https://github.com/stdlib-js/dstructs-named-typed-tuple
 
 <!-- </related-links> -->
 

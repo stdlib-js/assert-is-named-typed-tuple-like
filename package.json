@@ -43,7 +43,7 @@
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.2",
-    "@stdlib/utils-named-typed-tuple": "^0.2.2",
+    "@stdlib/dstructs-named-typed-tuple": "github:stdlib-js/dstructs-named-typed-tuple#main",
     "@stdlib/utils-noop": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
