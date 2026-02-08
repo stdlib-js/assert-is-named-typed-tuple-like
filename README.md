@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-named-typed-tuple-like/tags). For example,
+
+```javascript
 import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@v0.2.3-esm/index.mjs';
 ```
 
@@ -76,7 +81,7 @@ var bool = isNamedTypedTupleLike( p );
 <script type="module">
 
 import namedtypedtuple from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-named-typed-tuple@esm/index.mjs';
-import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@v0.2.3-esm/index.mjs';
+import isNamedTypedTupleLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-named-typed-tuple-like@esm/index.mjs';
 
 var Point = namedtypedtuple( [ 'x', 'y' ] );
 var p = new Point();
